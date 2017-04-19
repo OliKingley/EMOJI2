@@ -11,6 +11,7 @@ import UIKit
 class EmojiViewController: UIViewController {
     
     @IBOutlet weak var StrengthLabel: UILabel!
+    @IBOutlet weak var DefLabel: UILabel!
     
     var emoji = "No EmoJi"
 
@@ -18,6 +19,40 @@ class EmojiViewController: UIViewController {
         super.viewDidLoad()
         
         StrengthLabel.text = emoji
+        
+        if emoji  == "😱" {
+            DefLabel.text = "Scared"
+        }
+        
+        if emoji  == "😟" {
+            DefLabel.text = "What?"
+        }
+        
+        if emoji  == "😜" {
+            DefLabel.text = "Cheeky?"
+        }
+        
+        if emoji  == "😡" {
+            DefLabel.text = "Pissed"
+        }
+        
+        if emoji  == "😨" {
+            DefLabel.text = "Shock"
+        }
+        
+        if emoji  == "😓" {
+            DefLabel.text = "Really?"
+        }
+        
+        if emoji  == "🙏🏿" {
+            DefLabel.text = "Faith"
+        }
+        
+        if emoji  == "💀" {
+            DefLabel.text = "Terror"
+        }
+        
+        
         
         // Do any additional setup after loading the view.
     }

@@ -94,6 +94,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="DefLabel" destination="5KK-Vx-GiP" id="UDJ-mJ-4CY"/>
                         <outlet property="StrengthLabel" destination="mRM-gy-LQq" id="ptK-FV-DbA"/>
                     </connections>
                 </viewController>
