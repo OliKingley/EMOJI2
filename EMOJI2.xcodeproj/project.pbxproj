@@ -12,6 +12,7 @@
 		CEE4D8FE1EA78C2800E63AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8FC1EA78C2800E63AC9 /* Main.storyboard */; };
 		CEE4D9001EA78C2800E63AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8FF1EA78C2800E63AC9 /* Assets.xcassets */; };
 		CEE4D9031EA78C2800E63AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D9011EA78C2800E63AC9 /* LaunchScreen.storyboard */; };
+		CEE4D90B1EA7972B00E63AC9 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D90A1EA7972B00E63AC9 /* EmojiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CEE4D8FF1EA78C2800E63AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE4D9021EA78C2800E63AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE4D9041EA78C2800E63AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4D90A1EA7972B00E63AC9 /* EmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CEE4D8F81EA78C2700E63AC9 /* AppDelegate.swift */,
 				CEE4D8FA1EA78C2700E63AC9 /* ViewController.swift */,
+				CEE4D90A1EA7972B00E63AC9 /* EmojiViewController.swift */,
 				CEE4D8FC1EA78C2800E63AC9 /* Main.storyboard */,
 				CEE4D8FF1EA78C2800E63AC9 /* Assets.xcassets */,
 				CEE4D9011EA78C2800E63AC9 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE4D90B1EA7972B00E63AC9 /* EmojiViewController.swift in Sources */,
 				CEE4D8FB1EA78C2700E63AC9 /* ViewController.swift in Sources */,
 				CEE4D8F91EA78C2700E63AC9 /* AppDelegate.swift in Sources */,
 			);
